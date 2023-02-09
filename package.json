@@ -1,0 +1,19 @@
+{
+  "name": "orbitstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SueS16/OrbitStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SueS16/OrbitStore/issues"
+  },
+  "homepage": "https://github.com/SueS16/OrbitStore#readme"
+}
