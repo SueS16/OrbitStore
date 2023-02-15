@@ -1,26 +1,24 @@
+@charset "UTF-8";
 /*BARRA DE NAVEGACIÓN*/
-
 .navbarNav {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   list-style: none;
   text-align: right;
 }
 
 .nav-link {
-  color:black;
-
+  color: black;
 }
 
 .nav-item .nav-link.active {
   color: black;
 }
-/*-------*/
 
+/*-------*/
 body {
   background-color: silver;
 }
-
 
 img.logo {
   max-width: 50%;
@@ -28,46 +26,42 @@ img.logo {
 }
 
 /*INDEX*/
-
 .conth1 {
   padding-top: 5%;
   text-align: center;
-  color:darkblue;
+  color: darkblue;
   height: 100px;
-line-height: 100px;
+  line-height: 100px;
   font-size: 50%;
-
 }
+
 .aqui {
   margin-top: 5%;
   text-align: center;
-
 }
+
 /*---------*/
-
 /*CARRUSEL*/
-
 .carousel-inner {
   max-width: 80%;
   max-height: 80%;
   margin: auto;
   width: 640px;
-  transition: opacity .5s; 
+  transition: opacity 0.5s;
 }
+
 /*---------*/
-
-
 img.producto {
   max-width: 100%;
   max-height: 100%;
 }
+
 .cont {
   font-size: 1.5em;
   margin: 1em;
 }
 
 /*NUESTRA HISTORIA*/
-
 .par1 {
   padding-top: 5%;
   margin: auto;
@@ -80,13 +74,12 @@ img.producto {
 }
 
 img.propietario1 {
-  max-width:30%;
+  max-width: 30%;
   max-height: 5%;
   margin-left: 4em;
   margin-bottom: 2em;
-  display:block;
-  margin:auto;
-
+  display: block;
+  margin: auto;
 }
 
 .par2 {
@@ -110,17 +103,16 @@ img.propietario1 {
 }
 
 img.nuevaimg {
-  max-width:30%;
+  max-width: 30%;
   max-height: 5%;
   margin-left: 4em;
   margin-bottom: 2em;
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
 }
+
 /*------------*/
-
 /*PRODUCTOS- SHOP*/
-
 .padre-cards {
   display: grid;
   grid-template-columns: auto;
@@ -130,13 +122,12 @@ img.nuevaimg {
 }
 
 .col {
-  max-width:100%;
+  max-width: 100%;
   max-height: 100%;
 }
+
 /*----------*/
-
 /*DEVOLUCIONES-(galeria)*/
-
 .dev11 {
   padding-top: 5%;
   margin: auto;
@@ -162,10 +153,9 @@ img.nuevaimg {
   font-weight: normal;
   font-weight: bold;
 }
+
 /*-----------*/
-
 /*CONTACTANOS*/
-
 .contactos {
   background-color: #fff;
   margin: auto;
@@ -175,7 +165,7 @@ img.nuevaimg {
   max-width: 400px;
   padding: 4.5em 3em;
   border-radius: 10px;
-  box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
@@ -200,16 +190,15 @@ img.nuevaimg {
   border: none;
   outline: none;
   border-bottom: 1px solid var(--color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
 /*-------*/
-
 /*FOOTER pie de página*/
-
 footer {
   margin-top: auto;
   background-color: gray;
   margin: 6px;
-
 }
+
 /*# sourceMappingURL=styles.css.map */
