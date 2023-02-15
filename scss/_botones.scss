@@ -1,0 +1,13 @@
+/*EXTEND*/
+.boton1 {
+	width:300px;
+	padding: 6px 10px;
+	text-align:center;
+	border-radius:20px;
+	border:none;
+	background-color: blue;
+}
+
+.boton-compras {
+	@extend .boton1;
+}

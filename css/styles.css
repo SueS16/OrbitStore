@@ -1,4 +1,71 @@
 @charset "UTF-8";
+/*Medidas*/
+/*PANTALLAS*/
+/*NUESTRA HISTORIA*/
+/*mixing*/
+.par1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 5%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 60%;
+  max-width: 450px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+img.propietario1 {
+  max-width: 30%;
+  max-height: 5%;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  display: block;
+  margin: auto;
+}
+
+.par2 {
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.par3 {
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+img.nuevaimg {
+  max-width: 30%;
+  max-height: 5%;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  display: block;
+  margin: auto;
+}
+
+/*EXTEND*/
+.boton1, .boton-compras {
+  width: 300px;
+  padding: 6px 10px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  background-color: blue;
+}
+
 /*BARRA DE NAVEGACIÓN*/
 .navbarNav {
   display: flex;
