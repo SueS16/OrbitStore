@@ -1,0 +1,67 @@
+/*BARRA DE NAVEGACIÓN*/
+
+.navbarNav {
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+    text-align: right;
+  }
+  
+  .nav-link {
+    color:black;
+  
+  }
+  
+  .nav-item .nav-link.active {
+    color: black;
+  }
+  /*-------*/
+  
+  body {
+    background-color: silver;
+  }
+  
+  
+  img.logo {
+    max-width: 50%;
+    max-height: 5%;
+  }
+  
+  /*INDEX*/
+  
+  .conth1 {
+    padding-top: 5%;
+    text-align: center;
+    color:darkblue;
+    height: 100px;
+  line-height: 100px;
+    font-size: 50%;
+  
+  }
+  .aqui {
+    margin-top: 5%;
+    text-align: center;
+  
+  }
+  /*---------*/
+  
+  /*CARRUSEL*/
+  
+  .carousel-inner {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    width: 640px;
+    transition: opacity .5s; 
+  }
+  /*---------*/
+  
+  
+  img.producto {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .cont {
+    font-size: 1.5em;
+    margin: 1em;
+  }
