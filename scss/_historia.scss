@@ -13,6 +13,8 @@ width: 60%;
 max-width: 450px;
 border-radius: 5px;
 text-align: center;
+animation-duration: 3s;
+animation-name: izquierda;
 }
 
 .par1 {
@@ -26,6 +28,8 @@ img.propietario1 {
     margin-bottom: 2em;
     display: block;
     margin: auto;
+    animation-duration: 3s;
+    animation-name: izquierda;
   }
 
   .par2 {
@@ -36,6 +40,8 @@ img.propietario1 {
     max-width: 400px;
     border-radius: 10px;
     text-align: center;
+    animation-duration: 3s;
+    animation-name: izquierda;
   }
   
   .par3 {
@@ -46,6 +52,8 @@ img.propietario1 {
     max-width: 400px;
     border-radius: 10px;
     text-align: center;
+    animation-duration: 3s;
+    animation-name: izquierda;
   }
   
   img.nuevaimg {
@@ -55,4 +63,12 @@ img.propietario1 {
     margin-bottom: 2em;
     display: block;
     margin: auto;
+    animation-duration: 3s;
+    animation-name: izquierda;
+  }
+
+  @keyframes izquierda {
+    0% {
+      opacity: .0;
+    }
   }

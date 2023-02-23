@@ -23,6 +23,8 @@
   .formGrupo {
     position: relative;
     --color: #5757577e;
+    margin-right: 10%;
+    margin-left: 10%;
   }
   
   .formInput {
@@ -32,9 +34,15 @@
     font-size: 1rem;
     padding: 0.6em 0.3em;
     border: none;
-    outline: none;
+    outline:auto;
     border-bottom: 1px solid var(--color);
     font-family: 'Roboto', sans-serif;
   }
+
+  .formSubmit {
+    background-color: #0000ff;
+    
+  }
+  
   /*-------*/
   
