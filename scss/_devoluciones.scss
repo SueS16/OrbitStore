@@ -10,6 +10,8 @@
    max-width: 450px;
    border-radius: 5px;
    text-align: center;
+   animation-duration: 6s;
+   animation-name: anim;
  }
 
  .dev1 {
@@ -21,12 +23,22 @@
    max-width: 450px;
    border-radius: 5px;
    text-align: center;
+   animation-duration: 6s;
+   animation-name: anim;
  }
 
  .pregunta {
    font-family: 'PT Sans', sans-serif;
    font-weight: normal;
    font-weight: bold;
+   animation-duration: 6s;
+   animation-name: anim;
+  }
+
+@keyframes anim {
+ 0% {
+   opacity: 2;
  }
+}
 
  /*-----------*/

@@ -17,7 +17,7 @@
   max-width: 450px;
   border-radius: 5px;
   text-align: center;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-name: izquierda;
 }
 
@@ -28,7 +28,7 @@ img.propietario1 {
   margin-bottom: 2em;
   display: block;
   margin: auto;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-name: izquierda;
 }
 
@@ -41,7 +41,7 @@ img.propietario1 {
   max-width: 400px;
   border-radius: 10px;
   text-align: center;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-name: izquierda;
 }
 
@@ -54,7 +54,7 @@ img.propietario1 {
   max-width: 400px;
   border-radius: 10px;
   text-align: center;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-name: izquierda;
 }
 
@@ -65,13 +65,13 @@ img.nuevaimg {
   margin-bottom: 2em;
   display: block;
   margin: auto;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-name: izquierda;
 }
 
 @keyframes izquierda {
   0% {
-    opacity: 0;
+    opacity: 2;
   }
 }
 /*EXTEND*/
@@ -195,6 +195,8 @@ img.producto {
   max-width: 450px;
   border-radius: 5px;
   text-align: center;
+  animation-duration: 6s;
+  animation-name: anim;
 }
 
 .dev1 {
@@ -206,14 +208,23 @@ img.producto {
   max-width: 450px;
   border-radius: 5px;
   text-align: center;
+  animation-duration: 6s;
+  animation-name: anim;
 }
 
 .pregunta {
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
   font-weight: bold;
+  animation-duration: 6s;
+  animation-name: anim;
 }
 
+@keyframes anim {
+  0% {
+    opacity: 2;
+  }
+}
 /*-----------*/
 /*CONTACTANOS*/
 .contactos {
