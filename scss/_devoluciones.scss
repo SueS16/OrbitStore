@@ -10,7 +10,7 @@
    max-width: 450px;
    border-radius: 5px;
    text-align: center;
-   animation-duration: 6s;
+   animation-duration: 5s;
    animation-name: anim;
  }
 
@@ -23,7 +23,7 @@
    max-width: 450px;
    border-radius: 5px;
    text-align: center;
-   animation-duration: 6s;
+   animation-duration: 5s;
    animation-name: anim;
  }
 
@@ -31,13 +31,13 @@
    font-family: 'PT Sans', sans-serif;
    font-weight: normal;
    font-weight: bold;
-   animation-duration: 6s;
+   animation-duration: 5s;
    animation-name: anim;
   }
 
 @keyframes anim {
  0% {
-   opacity: 2;
+   opacity: .0;
  }
 }
 
