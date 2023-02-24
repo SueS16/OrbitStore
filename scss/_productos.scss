@@ -1,12 +1,13 @@
 /*PRODUCTOS- SHOP*/
   
 .padre-cards {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    justify-content: center;
-    padding: 5em;
-  }
+  font-family: 'PT Sans', sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  padding: 5em;
+}
   
   .col {
     max-width:100%;

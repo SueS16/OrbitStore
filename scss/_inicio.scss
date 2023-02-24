@@ -2,18 +2,21 @@
 @import "variables";
 
 header {
-  background-color: $colorh;
+  font-family: 'PT Sans', sans-serif;
+  background-color: black;
   navbarNav {
     display: flex;
     flex-direction: row;
     list-style: none;
     text-align: right;
-
     nav-link {
-      color: black;
-
+      color: $color-nav;
+      margin:0;
+      padding:0;
       nav-item .nav-link.active {
-        color: black;
+        color: $color-nav;
+        margin:0;
+        padding:0;      
       } 
     }
   }
@@ -33,9 +36,10 @@ img.logo {
 /*INDEX*/
 
 .conth1 {
+  font-family: 'PT Sans', sans-serif;
   padding-top: 5%;
   text-align: center;
-  color: darkblue;
+  color: $colorh;
   height: 100px;
   line-height: 100px;
   font-size: 50%;
@@ -49,12 +53,12 @@ img.logo {
   }
 }
 
-
-
-
 .aqui {
+  font-family: 'PT Sans', sans-serif;
   margin-top: 8%;
   text-align: center;
+  color: $aqui;
+  font-size: $relleno;
 
 }
 
@@ -63,6 +67,7 @@ img.logo {
 /*CARRUSEL*/
 
 .carousel-inner {
+  background-color: black;
   max-width: 80%;
   max-height: 80%;
   margin: auto;

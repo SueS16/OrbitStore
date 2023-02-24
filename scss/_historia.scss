@@ -1,6 +1,7 @@
 /*NUESTRA HISTORIA*/
 /*mixing*/
 @mixin flex1 {
+font-family: 'PT Sans', sans-serif;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -33,6 +34,7 @@ img.propietario1 {
   }
 
   .par2 {
+    font-family: 'PT Sans', sans-serif;
     margin: auto;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -45,6 +47,7 @@ img.propietario1 {
   }
   
   .par3 {
+    font-family: 'PT Sans', sans-serif;
     margin: auto;
     margin-top: 2em;
     margin-bottom: 2em;

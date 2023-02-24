@@ -4,6 +4,7 @@
 /*NUESTRA HISTORIA*/
 /*mixing*/
 .par1 {
+  font-family: "PT Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +33,7 @@ img.propietario1 {
 }
 
 .par2 {
+  font-family: "PT Sans", sans-serif;
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -44,6 +46,7 @@ img.propietario1 {
 }
 
 .par3 {
+  font-family: "PT Sans", sans-serif;
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -72,18 +75,23 @@ img.nuevaimg {
   }
 }
 /*EXTEND*/
-.boton1, .boton-compras {
-  width: 200px;
-  padding: 6px 10px;
+.boton-compras, .boton-deshacer {
+  background-color: #4CAF50;
+  border: 5cm;
+  color: black;
+  padding: 15px 32px;
   text-align: center;
-  border-radius: 20px;
-  border: none;
-  background-color: blue;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-block: 5px;
+  align-self: auto;
 }
 
 /*BARRA DE NAVEGACIÓN*/
 header {
-  background-color: rgb(0, 128, 19);
+  font-family: "PT Sans", sans-serif;
+  background-color: black;
 }
 header navbarNav {
   display: flex;
@@ -92,10 +100,14 @@ header navbarNav {
   text-align: right;
 }
 header navbarNav nav-link {
-  color: black;
+  color: rgb(255, 77, 0);
+  margin: 0;
+  padding: 0;
 }
 header navbarNav nav-link nav-item .nav-link.active {
-  color: black;
+  color: rgb(255, 77, 0);
+  margin: 0;
+  padding: 0;
 }
 
 /*-------*/
@@ -110,9 +122,10 @@ img.logo {
 
 /*INDEX*/
 .conth1 {
+  font-family: "PT Sans", sans-serif;
   padding-top: 5%;
   text-align: center;
-  color: darkblue;
+  color: rgb(2, 128, 0);
   height: 100px;
   line-height: 100px;
   font-size: 50%;
@@ -126,13 +139,17 @@ img.logo {
   }
 }
 .aqui {
+  font-family: "PT Sans", sans-serif;
   margin-top: 8%;
   text-align: center;
+  color: rgb(8, 0, 255);
+  font-size: 17px;
 }
 
 /*---------*/
 /*CARRUSEL*/
 .carousel-inner {
+  background-color: black;
   max-width: 80%;
   max-height: 80%;
   margin: auto;
@@ -153,6 +170,7 @@ img.producto {
 
 /*PRODUCTOS- SHOP*/
 .padre-cards {
+  font-family: "PT Sans", sans-serif;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -168,6 +186,7 @@ img.producto {
 /*----------*/
 /*DEVOLUCIONES-(galeria)*/
 .dev11 {
+  font-family: "PT Sans", sans-serif;
   padding-top: 5%;
   margin: auto;
   margin-top: 2em;
@@ -179,6 +198,7 @@ img.producto {
 }
 
 .dev1 {
+  font-family: "PT Sans", sans-serif;
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -189,6 +209,7 @@ img.producto {
 }
 
 .pregunta {
+  font-family: "PT Sans", sans-serif;
   font-weight: normal;
   font-weight: bold;
 }
@@ -196,6 +217,7 @@ img.producto {
 /*-----------*/
 /*CONTACTANOS*/
 .contactos {
+  font-family: "PT Sans", sans-serif;
   background-color: #fff;
   margin: auto;
   margin-top: 4em;
@@ -231,7 +253,7 @@ img.producto {
   border: none;
   outline: auto;
   border-bottom: 1px solid var(--color);
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .formSubmit {
@@ -241,6 +263,7 @@ img.producto {
 /*-------*/
 /*FOOTER pie de página*/
 footer {
+  font-family: "PT Sans", sans-serif;
   margin-top: auto;
   background-color: gray;
   margin: 6px;
